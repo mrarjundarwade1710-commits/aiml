@@ -1,0 +1,16 @@
+Total samples: 178
+Total features: 13
+Classes: ['class_0' 'class_1' 'class_2']
+Training samples: 142
+Testing samples: 36
+
+FINAL MODEL COMPARISON
+        Model  Accuracy  Precision  Recall  F1 Score  Log Loss
+          SVM    0.9722     0.9778  0.9667    0.9710    0.0906
+Decision Tree    0.9444     0.9583  0.9389    0.9457    2.0024
+          KNN    0.9722     0.9697  0.9762    0.9718    0.0910
+  Naive Bayes    0.9722     0.9744  0.9762    0.9743    0.0292
+
+Best accuracy: SVM
+Best F1 score: Naive Bayes
+Lowest log loss: Naive Bayes
